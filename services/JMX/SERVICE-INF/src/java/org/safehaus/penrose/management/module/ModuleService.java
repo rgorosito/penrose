@@ -56,7 +56,7 @@ public class ModuleService extends BaseService implements ModuleServiceMBean {
         return moduleConfig.getParameter(name);
     }
 
-    public Module getModule() {
+    public org.safehaus.penrose.module.Module getModule() {
         Partition partition = getPartition();
         if (partition == null) return null;
 
@@ -104,7 +104,7 @@ public class ModuleService extends BaseService implements ModuleServiceMBean {
     }
 
     public String getStatus() throws Exception {
-        Module module = getModule();
+        org.safehaus.penrose.module.Module module = getModule();
         return module == null ? ModuleServiceMBean.STOPPED : ModuleServiceMBean.STARTED;
     }
 
@@ -112,7 +112,7 @@ public class ModuleService extends BaseService implements ModuleServiceMBean {
 
         log.debug("Starting module "+partitionName+"/"+moduleName+"...");
 
-        Module module = getModule();
+        org.safehaus.penrose.module.Module module = getModule();
         module.init();
 
         log.debug("Module started.");
@@ -122,7 +122,7 @@ public class ModuleService extends BaseService implements ModuleServiceMBean {
 
         log.debug("Stopping module "+partitionName+"/"+moduleName+"...");
 
-        Module module = getModule();
+        org.safehaus.penrose.module.Module module = getModule();
         module.destroy();
 
         log.debug("Module stopped.");
@@ -132,7 +132,7 @@ public class ModuleService extends BaseService implements ModuleServiceMBean {
 
         log.debug("Restarting module "+partitionName+"/"+moduleName+"...");
 
-        Module module = getModule();
+        org.safehaus.penrose.module.Module module = getModule();
         module.destroy();
         module.init();
 

@@ -51,8 +51,8 @@
             classpathref="lib.path"
             debug="on"
             debuglevel="lines,vars,source"
-            source="1.5"
-            target="1.5"
+            source="1.8"
+            target="1.8"
         />
         <copy todir="target/classes">
             <fileset dir="src" includes="**/*.properties,**/*.xml,**/*.dtd"/>
@@ -60,7 +60,7 @@
         <jar jarfile="target/${product.fullName}.jar">
             <fileset dir="target/classes"/>
             <manifest>
-              <attribute name="Specification-Version"  value="${product.specification}"/>
+              <attribute name="Specification-Version"  value="2.0"/>
               <attribute name="Implementation-Title"   value="${product.title}"/>
               <attribute name="Implementation-Version" value="${product.version}"/>
               <attribute name="Implementation-Vendor"  value="${product.vendor}"/>

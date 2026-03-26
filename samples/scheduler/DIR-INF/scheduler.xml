@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE scheduler PUBLIC
-  "-//Penrose/DTD Scheduler ${product.specification}//EN"
+  "-//Penrose/DTD Scheduler 2.0//EN"
   "http://penrose.safehaus.org/dtd/scheduler.dtd">
 
 <scheduler>

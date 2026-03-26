@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE monitor PUBLIC
-  "-//Penrose/DTD Monitor ${product.specification}//EN"
+  "-//Penrose/DTD Monitor 2.0//EN"
   "http://penrose.safehaus.org/dtd/monitor.dtd">
 
 <monitor enabled="true">
