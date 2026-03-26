@@ -37,6 +37,9 @@
         <fileset dir="../../common/lib">
             <include name="**/*.jar"/>
         </fileset>
+        <fileset dir="../../common/target">
+            <include name="**/*.jar"/>
+        </fileset>
         <fileset dir="../../core/lib">
             <include name="**/*.jar"/>
         </fileset>
@@ -63,7 +66,7 @@
         <jar jarfile="DIR-INF/target/${project.name}-jdbc-sync-module-${product.version}.jar">
             <fileset dir="DIR-INF/target/classes"/>
             <manifest>
-              <attribute name="Specification-Version"  value="${product.specification}"/>
+              <attribute name="Specification-Version"  value="2.0"/>
               <attribute name="Implementation-Title"   value="${project.title} Server"/>
               <attribute name="Implementation-Version" value="${product.version}"/>
               <attribute name="Implementation-Vendor"  value="${product.vendor}"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE server PUBLIC
-  "-//Penrose/DTD Server ${product.specification}//EN"
+  "-//Penrose/DTD Server 2.0//EN"
   "http://penrose.safehaus.org/dtd/server.dtd">
 
 <server>

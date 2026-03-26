@@ -60,7 +60,7 @@
         <jar jarfile="MONITOR-INF/target/${project.name}-${monitor.name}-monitor-${product.version}.jar">
             <fileset dir="MONITOR-INF/target/classes"/>
             <manifest>
-              <attribute name="Specification-Version"  value="${product.specification}"/>
+              <attribute name="Specification-Version"  value="2.0"/>
               <attribute name="Implementation-Title"   value="${project.title} ${monitor.title} Monitor"/>
               <attribute name="Implementation-Version" value="${product.version}"/>
               <attribute name="Implementation-Vendor"  value="${product.vendor}"/>

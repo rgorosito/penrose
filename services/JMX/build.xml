@@ -65,7 +65,7 @@
         <jar jarfile="SERVICE-INF/target/${project.name}-${service.name}-service-${product.version}.jar">
             <fileset dir="SERVICE-INF/target/classes"/>
             <manifest>
-              <attribute name="Specification-Version"  value="${product.specification}"/>
+              <attribute name="Specification-Version"  value="2.0"/>
               <attribute name="Implementation-Title"   value="${project.title} ${service.title} Service"/>
               <attribute name="Implementation-Version" value="${product.version}"/>
               <attribute name="Implementation-Vendor"  value="${product.vendor}"/>

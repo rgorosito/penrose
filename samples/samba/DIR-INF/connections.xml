@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE connections PUBLIC
-  "-//Penrose/DTD Connections ${product.specification}//EN"
+  "-//Penrose/DTD Connections 2.0//EN"
   "http://penrose.safehaus.org/dtd/connections.dtd">
 
 <connections>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE federation PUBLIC
-  "-//Penrose/DTD Federation ${product.specification}//EN"
+  "-//Penrose/DTD Federation 2.0//EN"
   "http://penrose.safehaus.org/dtd/federation.dtd">
 
 <federation>
